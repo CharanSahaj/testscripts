@@ -1,0 +1,4 @@
+{
+  "fileUris": ["https://raw.githubusercontent.com/CharanSahaj/testscripts/master/test.sh"],
+  "commandToExecute": "./test.sh"
+}
