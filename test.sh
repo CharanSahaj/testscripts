@@ -1,6 +1,6 @@
-netstat -tulnp
-if [ "$(id -u)" != "0" ]; then
-   echo "This script must be run as root" 1>&2
-   exit 1
-fi
+mkdir ~/test
+cd ~/test
+git clone https://github.com/rafaelsteil/simple-webserver
+cd simple-webserver
 sudo apt-get install -y default-jdk
+java -jar SimpleWebServer.jar
